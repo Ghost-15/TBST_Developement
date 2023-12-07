@@ -1,0 +1,15 @@
+.cpy {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #757575;
+}
+
+.cpy:before {
+    content: 'Photon SARL powered by TBST Development © 2023';
+    color: #222222;
+    /*font-size: 15px;*/
+    font-weight: bold;
+    letter-spacing: 2px;
+}
