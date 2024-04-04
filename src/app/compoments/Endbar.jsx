@@ -1,4 +1,4 @@
-import mainLogo from'/public/picture.png';
+import mainLogo from'/picture.png';
 
 function Endbar() {
     return (
