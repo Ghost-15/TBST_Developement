@@ -1,4 +1,3 @@
-import Image1 from './public/picture.png'
 import Image from "next/image";
 
 const Navbar = () => {
@@ -7,7 +6,7 @@ const Navbar = () => {
         <nav className="bg-white border-gray-200">
             <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
                 <a href="/TBST_Developement/" className="flex items-center space-x-3 rtl:space-x-reverse">
-    <Image src={Image1} width='300px' height='200px' alt='this is my image'/>
+                    <Image src="/picture.jpg" width={50} height={50} alt="Logo"/>
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-black">
                         TBST Development</span>
                 </a>
