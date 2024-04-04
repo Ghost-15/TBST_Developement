@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <html lang="en">
       <head>
           <meta charSet="UTF-8"/>
-          <link rel="icon" href="/app/public/picture.jpg"/>
+          <link rel="icon" href="/TBST_Developement/picture.jpg"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </head>
       <body>
