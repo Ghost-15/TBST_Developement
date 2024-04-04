@@ -1,4 +1,4 @@
-import Image1 from '../public/picturepng'
+import Image1 from '../public/picture.png'
 import Image from "next/image";
 
 const Navbar = () => {
