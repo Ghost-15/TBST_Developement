@@ -13,10 +13,10 @@ function Endbar() {
                     </a>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0">
                         <li>
-                            <a href="/a-propos" className="hover:underline me-4 md:me-6">A propos</a>
+                            <a href="/TBST_Developement/a-propos" className="hover:underline me-4 md:me-6">A propos</a>
                         </li>
                         <li>
-                            <a href="/contact" className="hover:underline">Contact</a>
+                            <a href="/TBST_Developement/contact" className="hover:underline">Contact</a>
                         </li>
                     </ul>
                 </div>
