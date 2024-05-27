@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className="bg-white border-gray-200">
             <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
-                <a href="/TBST_Developement" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <a href="/TBST_Developement/public" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image src="/picture.jpg" width={50} height={50} alt="Logo"/>
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-black">
                         TBST Development</span>
@@ -45,7 +45,7 @@ const Navbar = () => {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/nos-technologies/service" className="text-gray-400 hover:text-[#99CCFF]">
+                                            <a href="/TBST_Developement/nos-technologies/service" className="text-gray-400 hover:text-[#99CCFF]">
                                                 Développement de logiciels
                                             </a>
                                         </li>
@@ -67,12 +67,12 @@ const Navbar = () => {
                                 <ul className="py-2 text-base text-gray-400"
                                     aria-labelledby="dropdownLargeButton">
                                     <li>
-                                        <a href="/a-propos" className="block px-4 py-2 hover:text-[#99CCFF]">
+                                        <a href="/TBST_Developement/a-propos" className="block px-4 py-2 hover:text-[#99CCFF]">
                                             A propos</a>
                                     </li>
 
                                     <li>
-                                        <a href="/contact" className="block px-4 py-2 hover:text-[#99CCFF]">
+                                        <a href="/TBST_Developement/contact" className="block px-4 py-2 hover:text-[#99CCFF]">
                                             Contact</a>
                                     </li>
                                 </ul>
