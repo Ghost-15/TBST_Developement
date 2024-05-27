@@ -29,7 +29,7 @@ export default function Home() {
             <p className='py-14 text-3xl text-center'>Vous obtiendrez des solutions pour vos projects</p>
         </div>
 
-        <div className="flex w-full flex-col items-center bg-white">
+        <div className="flex w-full flex-col items-center bg-[#E0E0E0]">
             <div className='w-full py-16 px-4'>
                 <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 transition ease-in-out delay-0 hover:text-white rounded-lg px-10 py-10 hover:-translate-y-1 hover:scale-110 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...'>
                     <div className='flex flex-col justify-center'>
@@ -60,6 +60,10 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div className="w-full h-36 text-center text-4xl text-white font-bold items-center justify-center bg-gray-500">
+            <p className='py-14 text-3xl text-center'>Nous Joindre</p>
         </div>
 
         <div className="flex flex-col items-center p-10">
