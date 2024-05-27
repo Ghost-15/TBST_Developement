@@ -19,7 +19,7 @@ function Page() {
                             Quelle que soit la taille de votre entreprise, notre équipe
                             <br/>veillera à ce que nos logiciels répondent à tous vos besoins.</p>
 
-                        <a href="/contact">
+                        <a href="/TBST_Developement/contact">
                             <button type="button" className="p-2.5 px-5 me-2 rounded-lg bg-white text-black 4 transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110 hover:text-white hover:bg-black">
                                 Contactez nous</button>
                         </a>
