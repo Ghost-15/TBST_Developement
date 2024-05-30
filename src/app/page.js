@@ -16,17 +16,16 @@ export default function Home() {
     <main>
         <div style={banner} className='flex items-center justify-center bg-fixed bg-center h-screen bg-cover'>
 
-            <div className='backdrop-blur rounded-lg px-10 py-10 text-white mt-40'>
-                <h2 className='text-5xl font-bold text-center'>Nous créons des logiciels pour vous
-                    <br/>afin que vous puissiez travailler plus
-                    <br/>facilement et efficacement</h2>
-                <p className='py-5 text-3xl text-center'>Quelle que soit la taille de votre entreprise, notre équipe
-                    <br/>veillera à ce que nos logiciels répondent à tous vos besoins</p>
+            <div className='backdrop-blur rounded-lg px-10 py-10 text-white mt-20'>
+                <h2 className='md:text-5xl sm:text-3xl font-bold text-center'>Createur de logiciel informatique</h2>
+                <p className='py-5 md:text-3xl sm:text-2xl text-center'>Quelle que soit la taille de votre business, notre trouverons
+                    <br/>des solutions pour tous vos projects</p>
             </div>
         </div>
 
         <div className="w-full h-36 text-center text-4xl text-white font-bold items-center justify-center bg-gradient-to-r from-green-400 to-blue-500">
-            <p className='py-14 text-3xl text-center'>Vous obtiendrez des solutions pour vos projects</p>
+            <p className='py-14 md:text-3xl sm:text-2xl text-center'>
+                Nous vous accompagnerons dans votre transformation digitale</p>
         </div>
 
         <div className="flex w-full flex-col items-center bg-[#E0E0E0]">
@@ -38,7 +37,7 @@ export default function Home() {
                         </h1>
                         <p className="text-xl">
                             Nous sommes innovants et passionnés par le travail que nous faisons.
-                            Nous avons toujours de nouvelles façons d'enrichir vos revenus à des sommets plus élevés.
+                            Nous ne vous aidons pas seulement à franchir des étapes, nous établissons des relations durables.
                         </p>
                     </div>
 
@@ -54,8 +53,8 @@ export default function Home() {
                         <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
                             Fiabilite</h1>
                         <p className="text-xl">
-                            De nombreuses entreprises et individus trouvent que les logiciels de
-                            TBST Development les rendent plus productives.
+                            TBST Development conçoivent des logiciels de qualité
+                            avec des conditions opérationnelles.
                         </p>
                     </div>
                 </div>
@@ -63,7 +62,7 @@ export default function Home() {
         </div>
 
         <div className="w-full h-36 text-center text-4xl text-white font-bold items-center justify-center bg-gray-500">
-            <p className='py-14 text-3xl text-center'>Nous Joindre</p>
+            <p className='py-14 md:text-3xl sm:text-2xl text-center'>Comment Nous Contacter</p>
         </div>
 
         <div className="flex flex-col items-center p-10">
