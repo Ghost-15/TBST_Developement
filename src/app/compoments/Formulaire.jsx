@@ -106,8 +106,9 @@ export default function Formulaire () {
 
                 <div className="right-side">
                     <div className="topic-text">Envoye nous un mail</div>
-                    <p>Pour plus d'information veuillez Remplir<br/>
-                        les détails ci-dessous</p>
+                    <p>Vous avez un projet en tête ?
+                        Vous cherchez à développer votre activité ?<br/>
+                        N’hésitez plus et contactez-nous pour en discuter.</p>
                     <p ref={errRef} className="text-red-600 text-xl">{errMsg}</p>
                     <p ref={errRef} className="text-green-600 text-xl">{succMsg}</p>
 
