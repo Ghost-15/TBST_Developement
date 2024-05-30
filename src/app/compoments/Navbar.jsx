@@ -16,7 +16,7 @@ const Navbar = () => {
 
                         <li>
                             <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-dropdown" className="flex items-center justify-between w-full py-2 px-3 font-medium text-black border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#99CCFF] md:p-0 md:w-auto">
-                                Nos technologies <svg className="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                Nos offres <svg className="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                             </svg>
                             </button>
@@ -45,7 +45,7 @@ const Navbar = () => {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/TBST_Developement/nos-technologies/service" className="text-gray-400 hover:text-[#99CCFF]">
+                                            <a href="/TBST_Developement/nos-offres/service" className="text-gray-400 hover:text-[#99CCFF]">
                                                 Développement de logiciels
                                             </a>
                                         </li>
